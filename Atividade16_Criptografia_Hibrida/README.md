@@ -4,7 +4,7 @@ Projeto acadêmico da disciplina **Segurança de Software**, do curso de Engenha
 
 ## Grupo
 - Thyron 
-- Luiz 
+- Luiz Gustavo
 - Ivo 
 
 ## Tecnologias
