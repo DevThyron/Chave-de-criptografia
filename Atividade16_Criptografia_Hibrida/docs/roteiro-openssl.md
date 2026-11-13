@@ -3,7 +3,7 @@
 > Execute localmente. Não envie arquivos secretos ao GitHub.
 
 ## 1. Criar mensagem de teste
-Crie `mensagem.txt` com um texto simples.
+Crie `mensagem.txt` com um texto simples. (luiz e ivo vao fazer as deles diferentes
 
 ## 2. Gerar par RSA
 ```bash
@@ -15,7 +15,7 @@ openssl pkey -in privada.pem -pubout -out publica.pem
 ```bash
 openssl rand -hex 32 > chave_aes.bin
 ```
-O comando produz 32 bytes aleatórios codificados em hexadecimal (64 caracteres ASCII). Neste roteiro, esse valor é usado como segredo/senha de entrada do PBKDF2; não é passado como chave AES bruta.
+O comando produz 32 bytes aleatórios codificados em hexadecimal (64 caracteres ASCII). Neste roteiro meio meme , esse valor é usado como segredo/senha de entrada do PBKDF2; não é passado como chave AES bruta.
 
 ## 4. Criptografar arquivo com AES-256-CBC + PBKDF2
 ```bash
