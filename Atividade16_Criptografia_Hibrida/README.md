@@ -3,9 +3,9 @@
 Projeto acadêmico da disciplina **Segurança de Software**, do curso de Engenharia de Software (3º período) da UniRV.
 
 ## Grupo
-- Thyron [sobrenome]
-- Luiz [nome completo]
-- Ivo [nome completo]
+- Thyron 
+- Luiz 
+- Ivo 
 
 ## Tecnologias
 - Linguagem: C
